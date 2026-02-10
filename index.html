@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OMC Team - сайт переводчиков манги</title>
+    <link rel="icon" type="image/png" href="./img/logo.png">
+    <script src="./libs/hanyo-slider/hanyo-slider.js"></script>
+
     <link rel="stylesheet" href="./styles/fonts.css">
     <link rel="stylesheet" href="./styles/vars.css">
     <link rel="stylesheet" href="./styles/main.css">
@@ -18,82 +21,125 @@
         </a>
         <div class="header__right-block">
             <div class="header__buttons">
-                <button>Войти</button>
-                <button>Регистрация</button>
+                <a class="button" href="/login">Войти</a>
+                <a class="button" href="/reg">Регистрация</a>
             </div>
         </div>
     </header>
 
     <main>
-        <h2>Наши переводы</h2>
-        <div class="translates">
-            <div class="translates__slide">
-                <img src="./img/manga/venera.png" alt="Венера надевает на меня мех">
-                <div class="translates__slide-block-info">
-                    <a href="/manga/venera">
-                        <h1>Венера надевает на меня мех</h1>
-                    </a>
-                    <div class="translates__slide-tags">
-                        <a href="javascript:void(0);" class="translates__slide-tag">Школа</a>
-                        <a href="javascript:void(0);" class="translates__slide-tag">Комедия</a>
-                        <a href="javascript:void(0);" class="translates__slide-tag">Трагедия</a>
-                        <a href="javascript:void(0);" class="translates__slide-tag">Игра</a>
+        <div class="translates-block">
+            <h2>Наши переводы</h2>
+            <div class="translates">
+                <button class="translates__slider-navigate translates__slider-nav-back">
+                    <img src="./img/icons/arrow_back.png" alt="">
+                </button>
+                <div class="translates__slider">
+                    <div class="translates__slide">
+                        <img src="./img/manga/venera.png" alt="Венера надевает на меня мех">
+                        <div class="translates__slide-block-info">
+                            <a href="/manga/venera">Венера надевает на меня мех</a>
+                            <div class="translates__slide-tags">
+                                <a href="javascript:void(0);" class="translates__slide-tag button">Школа</a>
+                                <a href="javascript:void(0);" class="translates__slide-tag button">Комедия</a>
+                                <a href="javascript:void(0);" class="translates__slide-tag button">Трагедия</a>
+                                <a href="javascript:void(0);" class="translates__slide-tag button">Игра</a>
+                            </div>
+                            <span class="translates__slide-description">
+                                Это были не&nbsp;просто издевательства! Накаджима главный хулиган в&nbsp;классе.
+                                Предметом
+                                его
+                                издевательств постоянно была хрупкая девушка&nbsp;&mdash; Широсаки-сан. Каждый
+                                ее&nbsp;день
+                                был
+                                ужасен. А&nbsp;все в&nbsp;классе делали вид, что не&nbsp;замечают этого. Если&nbsp;бы
+                                они
+                                попытались его остановить, то&nbsp;стали следующей жертвой. Накаджима одержим
+                                жестокостью
+                                и&nbsp;было ясно, что что-то не&nbsp;так. Почему он&nbsp;совершает эти жестокие поступки
+                                и&nbsp;что подталкивает его на&nbsp;столь безрассудные выходки? Реальность оказалась
+                                на&nbsp;редкость жестока!
+                            </span>
+                        </div>
                     </div>
-                    <span class="translates__slide-description">
-                        Это были не&nbsp;просто издевательства! Накаджима главный хулиган в&nbsp;классе. Предметом его
-                        издевательств постоянно была хрупкая девушка&nbsp;&mdash; Широсаки-сан. Каждый ее&nbsp;день был
-                        ужасен. А&nbsp;все в&nbsp;классе делали вид, что не&nbsp;замечают этого. Если&nbsp;бы они
-                        попытались его остановить, то&nbsp;стали следующей жертвой. Накаджима одержим жестокостью
-                        и&nbsp;было ясно, что что-то не&nbsp;так. Почему он&nbsp;совершает эти жестокие поступки
-                        и&nbsp;что подталкивает его на&nbsp;столь безрассудные выходки? Реальность оказалась
-                        на&nbsp;редкость жестока!
-                    </span>
+                    <div class="translates__slide">
+                        <img src="./img/manga/venera.png" alt="Венера надевает на меня мех">
+                        <div class="translates__slide-block-info">
+                            <a href="/manga/venera">Венера надевает на меня мех</a>
+                            <div class="translates__slide-tags">
+                                <a href="javascript:void(0);" class="translates__slide-tag button">Школа</a>
+                                <a href="javascript:void(0);" class="translates__slide-tag button">Комедия</a>
+                                <a href="javascript:void(0);" class="translates__slide-tag button">Трагедия</a>
+                                <a href="javascript:void(0);" class="translates__slide-tag button">Игра</a>
+                            </div>
+                            <span class="translates__slide-description">
+                                Это были не&nbsp;просто издевательства! Накаджима главный хулиган в&nbsp;классе.
+                                Предметом
+                                его
+                                издевательств постоянно была хрупкая девушка&nbsp;&mdash; Широсаки-сан. Каждый
+                                ее&nbsp;день
+                                был
+                                ужасен. А&nbsp;все в&nbsp;классе делали вид, что не&nbsp;замечают этого. Если&nbsp;бы
+                                они
+                                попытались его остановить, то&nbsp;стали следующей жертвой. Накаджима одержим
+                                жестокостью
+                                и&nbsp;было ясно, что что-то не&nbsp;так. Почему он&nbsp;совершает эти жестокие поступки
+                                и&nbsp;что подталкивает его на&nbsp;столь безрассудные выходки? Реальность оказалась
+                                на&nbsp;редкость жестока!
+                            </span>
+                        </div>
+                    </div>
                 </div>
+                <button class="translates__slider-navigate translates__slider-nav-forward">
+                    <img src="./img/icons/arrow_forward.png" alt="">
+                </button>
             </div>
         </div>
-    
-        <h2>Недавно добавленные</h2>
-        <div class="recently-added">
-            <div class="recently-added__block">
-                <img src="./img/manga/venera.png" alt="">
-                <div class="recently-added__block-right">
-                    <span>Венера надевает на меня мех</span>
-                    <a href="/manga/venera/chapter-150">Глава 150</a>
+
+        <div class="recently-added-block">
+            <h2>Недавно добавленные</h2>
+            <div class="recently-added">
+                <div class="recently-added__block">
+                    <img src="./img/manga/venera.png" alt="">
+                    <div class="recently-added__block-right">
+                        <span>Венера надевает на меня мех</span>
+                        <a href="/manga/venera/chapter-150">Глава 150</a>
+                    </div>
                 </div>
-            </div>
-            <div class="recently-added__block">
-                <img src="./img/manga/venera.png" alt="">
-                <div class="recently-added__block-right">
-                    <span>Венера надевает на меня мех</span>
-                    <a href="/manga/venera/chapter-150">Глава 150</a>
+                <div class="recently-added__block">
+                    <img src="./img/manga/venera.png" alt="">
+                    <div class="recently-added__block-right">
+                        <span>Венера надевает на меня мех</span>
+                        <a href="/manga/venera/chapter-150">Глава 150</a>
+                    </div>
                 </div>
-            </div>
-            <div class="recently-added__block">
-                <img src="./img/manga/venera.png" alt="">
-                <div class="recently-added__block-right">
-                    <span>Венера надевает на меня мех</span>
-                    <a href="/manga/venera/chapter-150">Глава 150</a>
+                <div class="recently-added__block">
+                    <img src="./img/manga/venera.png" alt="">
+                    <div class="recently-added__block-right">
+                        <span>Венера надевает на меня мех</span>
+                        <a href="/manga/venera/chapter-150">Глава 150</a>
+                    </div>
                 </div>
-            </div>
-            <div class="recently-added__block">
-                <img src="./img/manga/venera.png" alt="">
-                <div class="recently-added__block-right">
-                    <span>Венера надевает на меня мех</span>
-                    <a href="/manga/venera/chapter-150">Глава 150</a>
+                <div class="recently-added__block">
+                    <img src="./img/manga/venera.png" alt="">
+                    <div class="recently-added__block-right">
+                        <span>Венера надевает на меня мех</span>
+                        <a href="/manga/venera/chapter-150">Глава 150</a>
+                    </div>
                 </div>
-            </div>
-            <div class="recently-added__block">
-                <img src="./img/manga/venera.png" alt="">
-                <div class="recently-added__block-right">
-                    <span>Венера надевает на меня мех</span>
-                    <a href="/manga/venera/chapter-150">Глава 150</a>
+                <div class="recently-added__block">
+                    <img src="./img/manga/venera.png" alt="">
+                    <div class="recently-added__block-right">
+                        <span>Венера надевает на меня мех</span>
+                        <a href="/manga/venera/chapter-150">Глава 150</a>
+                    </div>
                 </div>
-            </div>
-            <div class="recently-added__block">
-                <img src="./img/manga/venera.png" alt="">
-                <div class="recently-added__block-right">
-                    <span>Венера надевает на меня мех</span>
-                    <a href="/manga/venera/chapter-150">Глава 150</a>
+                <div class="recently-added__block">
+                    <img src="./img/manga/venera.png" alt="">
+                    <div class="recently-added__block-right">
+                        <span>Венера надевает на меня мех</span>
+                        <a href="/manga/venera/chapter-150">Глава 150</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -122,6 +168,19 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            hanyoSlider({
+                sliderSelector: '.translates__slider',
+                slidesSelector: '.translates__slide',
+                prevBtnSelector: 'button.translates__slider-nav-back',
+                nextBtnSelector: 'button.translates__slider-nav-forward',
+                autoplay: true,
+                interval: 3000
+            })
+        })
+    </script>
 </body>
 
 </html>

@@ -2,5 +2,11 @@
     --text-shadow-logo: 5px 4px 4px rgba(205, 26, 166, 0.5);
     --font-color: #fff;
     --bg-color: #141414;
+    --fill-color: #191919;
     --logo-font-size: 36px;
+    --button-font: 'Montserrat Alternates';
+    --button-font-size: 20px;
+    --button-fill-color: #2D2727;
+    --stroke-color: #CD1AA6;
+    --box-shadow: 5px 4px 5px 0 rgba(205, 26, 166, .25);
 }
