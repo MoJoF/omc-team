@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0 17.7vw;
+    background: var(--bg-color);
+}
+
+main {
+    margin: 50px 0;
+}
+
+header {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__left-block {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+}
+
+span.header__logo-title {
+    font-family: 'Matura';
+    color: var(--font-color);
+    text-shadow: var(--text-shadow-logo);
+    font-size: var(--logo-font-size);
+}
